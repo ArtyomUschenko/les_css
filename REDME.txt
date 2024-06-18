@@ -1,0 +1,1 @@
+//Установить вручную: npm install -g browser-sync
