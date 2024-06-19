@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Киномонстр - это портал о кино">
 	<meta name="keywords" content="Фильмы, фильмы онлайн">
 	<link rel="stylesheet" href="css/style.css">
@@ -22,8 +23,8 @@
 				<li ><a href="index.html">Главная</a> </li>
 				<li ><a href="films.html">Фильмы</a> </li>
 				<li ><a href="#">Сериалы</a> </li>
-				<li ><a href="rating.html">Рейтинг фильмов</a> </li>
-				<li class="selected"><a href="contact.html">Контакты</a> </li>
+				<li class="selected"><a href="rating.html">Рейтинг фильмов</a> </li>
+				<li ><a href="contact.html">Контакты</a> </li>
 			</ul>
 		</div>
 	</div>
@@ -68,19 +69,39 @@
 
 		</div>
 		<div class="content">
-		<h1>Контакты</h1>
-			<div>
-				<p>Отправьте ваш отзыв о портале КиноМонстр</p>
-			</div>
-			<div class="send contacts_form">
-				<form method="post" action="#" id="cotacts">
-					<input type="text" name="contacts_name" placeholder="ваше имя">
-					<input type="text" name="contacts_email" placeholder="ваш email">
-					<textarea name="contacts"></textarea>
-					<br>
-					<input class="btn" type="submit" value="Отправть">
-				</form>
-			</div>
+			<table >
+				<tr>
+					<th></th>
+					<th>Фильмы</th>
+					<th class="center">Год</th>
+					<th class="center">Рейтинг</th>
+				</tr>
+				<tr>
+					<td class="center"><img src="img/inter.png"></td>
+					<td>1. <a href="show.html">Интерстеллар</a> </td>
+					<td class="center">2014</td>
+					<td class="center rating">8.1</td>
+				</tr>
+				<tr>
+					<td class="center"><img src="img/matrix.png"></td>
+					<td>1. <a href="#">Матрица</a> </td>
+					<td class="center">2010</td>
+					<td class="center rating">7.1</td>
+				</tr>
+				<tr>
+					<td class="center"><img src="img/max.png"></td>
+					<td>1. <a href="#">Безумный макс</a> </td>
+					<td class="center">2021</td>
+					<td class="center rating">10</td>
+				</tr>
+				<tr>
+					<td class="center"><img src="img/cloud.png"></td>
+					<td>1. <a href="#">Облачный атлас</a> </td>
+					<td class="center">2018</td>
+					<td class="center rating">6.8</td>
+				</tr>
+			</table>
+
 
 
 		</div>
